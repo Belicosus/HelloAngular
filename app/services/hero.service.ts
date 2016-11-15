@@ -16,7 +16,5 @@ export class HeroService {
         return new Promise<Array<Hero>>((resolve) => setTimeout(resolve, 500)).then(() => {
                 return Promise.resolve(this.heroes);
             });
-
     }
-
 }
