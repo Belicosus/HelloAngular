@@ -1,3 +1,4 @@
+<h3>Heores</h3>
 <ul class="heroes">
     <li (click)="onSelect(null)">
         <span class="badge">&nbsp;-&nbsp;</span> none
@@ -12,5 +13,6 @@
 </ul>
 
 <div *ngIf="selectedHero">
-<hero-detail [hero]="selectedHero"></hero-detail>
+<h2> {{selectedHero.name |uppercase}} is my hero</h2>
+<button (click)="gotoDetail()">View Details</button>
 </div>

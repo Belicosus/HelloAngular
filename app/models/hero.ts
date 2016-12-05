@@ -4,6 +4,6 @@ export class Hero {
 
     constructor(name: string = "") {
         this.name = name;
-        this.id = 0;
+        //this.id = 0;
     }
 }
